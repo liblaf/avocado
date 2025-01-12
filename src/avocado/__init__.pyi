@@ -1,4 +1,4 @@
-from . import logging, text, typing
+from . import logging, serde, text, typing
 from .logging import (
     DEFAULT_FILTER,
     Timer,
@@ -13,6 +13,18 @@ from .logging import (
     trace_once,
     warning_once,
 )
+from .serde import (
+    deserialize,
+    load_json,
+    load_pydantic,
+    load_toml,
+    load_yaml,
+    save_json,
+    save_pydantic,
+    save_toml,
+    save_yaml,
+    serialize,
+)
 from .text import strip_comments
 from .typing import StrPath, is_iterable, is_sequence
 
@@ -22,13 +34,24 @@ __all__ = [
     "Timer",
     "critical_once",
     "debug_once",
+    "deserialize",
     "error_once",
     "info_once",
     "init_logging",
     "is_iterable",
     "is_sequence",
+    "load_json",
+    "load_pydantic",
+    "load_toml",
+    "load_yaml",
     "log_once",
     "logging",
+    "save_json",
+    "save_pydantic",
+    "save_toml",
+    "save_yaml",
+    "serde",
+    "serialize",
     "strip_comments",
     "success_once",
     "text",
