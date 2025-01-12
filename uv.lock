@@ -1,5 +1,5 @@
 version = 1
-requires-python = ">=3.12"
+requires-python = ">=3.12, <4"
 
 [[package]]
 name = "asttokens"
@@ -74,7 +74,7 @@ dev = [
 requires-dist = [
     { name = "lazy-loader", specifier = "~=0.4" },
     { name = "loguru", specifier = "~=0.7.3" },
-    { name = "rich", specifier = ">=13.9.4" },
+    { name = "rich", specifier = "~=13.9.4" },
 ]
 
 [package.metadata.requires-dev]
