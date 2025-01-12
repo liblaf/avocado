@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.1](https://github.com/liblaf/avocado/compare/v0.1.0...v0.1.1) (2025-01-12)
+
+
+### ✨ Features
+
+* add serialization/deserialization utilities for JSON, TOML, YAML, and Pydantic ([6c2d06d](https://github.com/liblaf/avocado/commit/6c2d06d2296b814745b35bc361cdd8ec45513dff))
+
 ## 0.1.0 (2025-01-12)
 
 
