@@ -28,5 +28,8 @@ version = "0.0.0"
 "Release Notes" = "https://github.com/liblaf/avocado/releases"
 "Source Code" = "https://github.com/liblaf/avocado"
 
+[tool.check-wheel-contents]
+ignore = ["W002"]
+
 [tool.hatch.build.targets.wheel]
 packages = ["src/avocado"]
