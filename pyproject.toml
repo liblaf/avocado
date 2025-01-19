@@ -26,7 +26,7 @@ license = "MIT"
 name = "liblaf-avocado"
 readme = "docs/README.md"
 requires-python = "~=3.12"
-version = "0.1.0"
+version = "0.1.1"
 
 [project.urls]
 "Changelog" = "https://github.com/liblaf/avocado/blob/main/CHANGELOG.md"
